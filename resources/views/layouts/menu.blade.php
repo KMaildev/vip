@@ -105,22 +105,10 @@
                             </a>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-haspopup="true" aria-expanded="false">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('services.index') }}">
                                 Our Projects
                             </a>
-
-                            <div class="dropdown-menu" style="width:200px;">
-                                <a class="dropdown-item" href="#"
-                                    style="font-size:16px; text-align: left;font-weight:bold;">
-                                    Complete Projects
-                                </a>
-                                <a class="dropdown-item" href="#"
-                                    style="font-size:16px; text-align: left;font-weight:bold;">
-                                    Current Projects
-                                </a>
-                            </div>
                         </li>
 
                         <li class="nav-item">
