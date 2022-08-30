@@ -18,10 +18,8 @@
                         <div class="item">
                             <div>
                                 <div class="grid cs-style-3">
-                                    <div class="figure">
-                                        <img data-enlargeable="" src="{{ $photo }}" class="img-fluid" alt="img25"
-                                            style="width: 100%; height: 260px; background-size: center; object-fit: cover;" />
-                                    </div>
+                                    <img data-enlargeable="" src="{{ $photo }}" class="img-fluid" alt="img25"
+                                        style="width: 100%; height: 260px; background-size: center; object-fit: cover;" />
                                 </div>
                             </div>
                         </div>

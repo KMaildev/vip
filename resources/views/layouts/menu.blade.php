@@ -1,7 +1,7 @@
 <!--header -->
-<div class="top-header">
-    <div class="container">
-        <div class="pull-left">
+<div class="top-header" style="background-image: url({{ asset('data/bg.jpg') }})">
+    <div class="container" >
+        <div class="pull-left" >
             <a href="{{ route('welcome') }}" title="Home">
                 <img src="{{ asset('data/logo.jpg') }}" class="logo1" title="" alt="" style="width: 90px;" />
             </a>
@@ -32,7 +32,7 @@
                 </ul>
             </div>
             <div class="clearfix"></div>
-            <div class="top-search-div">
+            {{-- <div class="top-search-div">
                 <div class="top-social">
                     <ul>
                         <li>
@@ -49,7 +49,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     <div class="clearfix"></div>
@@ -57,7 +57,7 @@
 <!--\\ header -->
 
 <!-- Navigation -->
-<nav class="navbar fixed-top  navbar-default navbar-custom">
+<nav class="navbar fixed-top  navbar-default navbar-custom" style="background-color:#06378b;">
     {{-- <div class="parallelogram-container">
         <div class="parallelogram"></div>
     </div> --}}

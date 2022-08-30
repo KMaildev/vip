@@ -1,12 +1,12 @@
 <br><br>
-<div class="" style="background-color:#2b3872;">
-    <div class="newsletter wow fadeInUp" data-wow-duration="900ms" data-wow-delay="100ms">
-        <div class="container">
+<div class="" style="background-image: url({{ asset('data/f3.webp') }})">
+    <div class="newsletter wow fadeInUp" data-wow-duration="900ms" data-wow-delay="100ms" >
+        <div class="container" style="background-color:#06378b;">
             <div class="col-xs-6 address">
-                <div class="col-xs-2"><i class="flaticon-placeholder"></i></div>
+                <div class="col-xs-2"><i class="flaticon-placeholder text-white" style="color;white;"></i></div>
                 <div class="nws-txt no-padding">
-                    <h5>Location : </h5>
-                    <p>
+                    <h5 class="text-white">Location : </h5>
+                    <p class="text-white">
                         Yangon,
                         Myanmar
                     </p>
@@ -15,21 +15,21 @@
             </div>
             <div class="col-xs-6 phone-div">
                 <div class="col-xs-5">
-                    <div class="col-xs-2"><i class="flaticon-technology"></i></div>
+                    <div class="col-xs-2"><i class="flaticon-technology text-white" style="color;white;"></i></div>
                     <div class="nws-txt no-padding">
-                        <h5>Phone : </h5>
-                        <p>
+                        <h5 class="text-white">Phone : </h5>
+                        <p class="text-white">
                             +959 76 76 70487
                         </p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="col-xs-6 pull-right">
-                    <div class="col-xs-2"><i class="flaticon-email"></i></div>
+                    <div class="col-xs-2"><i class="flaticon-email text-white" style="color;white;"></i></div>
                     <div class="nws-txt no-padding">
-                        <h5>Mail Us : </h5>
-                        <p>
-                            <a href="mailto:info@vipdesignconstruction.com">
+                        <h5 class="text-white">Mail Us : </h5>
+                        <p class="text-white">
+                            <a href="mailto:info@vipdesignconstruction.com" class="text-white">
                                 info@vipdesignconstruction.com
                             </a>,
                         </p>
