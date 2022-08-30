@@ -10,3 +10,4 @@ Route::resource('activities', ActivitiesController::class);
 Route::resource('blog', BlogController::class);
 Route::resource('services', ServicesController::class);
 Route::resource('about', AboutController::class);
+Route::resource('projects', ProjectController::class);

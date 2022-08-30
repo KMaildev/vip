@@ -4,12 +4,18 @@
     <div class="content-section services-main">
         <div class="container">
             <h2 class="text-center text-uppercase">
-                Activities <span class="orange-txt">& Gallery</span>
+                Project <span class="orange-txt"> Galleries</span>
             </h2>
             <div class="border-creative text-center">
                 <img src="{{ asset('assets/imgs/borders/border.png') }}" alt="" />
+                <center>
+                    <p>
+                        Our top priority is your satisfaction.
+                    </p>
+                </center>
             </div>
-            <div class="row">
+
+            <div class="row py-2">
                 <div class="grid-2">
                     @foreach ($activities as $activitie)
                         @php
